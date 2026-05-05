@@ -2,7 +2,11 @@
 
 ## Setup
 
-**Requirements:** [pyenv](https://github.com/pyenv/pyenv) with the `pyenv-virtualenv` plugin.
+```bash
+pip install -r requirements.txt
+```
+
+A virtual environment is optional but recommended to keep dependencies isolated. Using [pyenv](https://github.com/pyenv/pyenv) with the `pyenv-virtualenv` plugin:
 
 ```bash
 pyenv virtualenv 3.13.12 DET
